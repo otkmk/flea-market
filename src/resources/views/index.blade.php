@@ -20,7 +20,7 @@
       <div class="">
         @foreach($products as $product)
         <img src="{{ asset($product->product_img) }}" alt="商品画像"style="width:200px;">
-        <a href="">{{$product->product_name}}</a>
+        <a href="{{ route('item.show',['item_id' => $product->id]) }}">{{$product->product_name}}</a>
         @endforeach
       </div>
     </div>

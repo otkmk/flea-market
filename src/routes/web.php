@@ -17,3 +17,4 @@ use App\Http\Controllers\ProductController;
 
 Route::get('/',[ProductController::class,'index']);
 Route::get('/login',[ProductController::class,'login'])->name('login');
+Route::get('/purchase/{item_id}',[ProductController::class,'show'])->name('item.show');

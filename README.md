@@ -1,3 +1,12 @@
-"# flea-market" 
-"# flea-market" 
-"# flea-market" 
+# laravel フリマアプリ
+
+## 概要
+Laravelで開発中のフリマアプリです。
+商品の一覧と、その商品詳細画面を作成しました。
+
+## 使用技術
+-Lravel 8.83.29
+-PHP 7.4.9
+-MySQL 10.3.39
+
+### リポジトリ

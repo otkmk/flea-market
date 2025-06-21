@@ -16,4 +16,9 @@ class ProductController extends Controller
     {
         return view('login');
     }
+    public function show($item_id)
+    {
+        $product = Product::findOrFail($item_id);
+        return view('item',['product'=>$product]);;
+    }
 }
